@@ -1,0 +1,8 @@
+body {
+    background-color: pink;
+}
+.nonlink {
+    color: blue;
+    text-decoration: underline;
+    cursor: default;
+}
