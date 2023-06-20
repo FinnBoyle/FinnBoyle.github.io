@@ -1,27 +1,45 @@
+/*main body*/
 html, body {
     background-color: rgb(57, 94, 102);
     height: 100%;
     margin: 0;
 }
 
+/*div container*/
 .container {
     display: flex;
     height: 100%;
 }
 
 .sidebar {
+    /*Sidebar itself*/
     min-width: 100px;
     width: 15%;
     background-color: rgb(56, 125, 122);
     border-radius: 15px;
-    padding: 10px;
+    padding: 25px;
     margin: 15px;
+
+    /*Sidebar inner*/
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/*Main body content stuff*/
 .main-content {
     flex-grow: 1; /*Allows main content to fill up remaining space across from sidebar*/
 }
 
+.header {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(245, 245, 245);
+}
+
+
+    /*Links section*/
+/*Fake links*/
 .nonlink {
     color: rgb(38, 169, 108);
     text-decoration: line-through;
@@ -31,10 +49,11 @@ html, body {
     margin-bottom: 20px;
 }
 
+/*Sidebar links*/
 a.SBLink {
     color: rgb(38, 169, 108);
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
     display: block;
     margin-bottom: 20px;
 }
@@ -42,5 +61,5 @@ a.SBLink {
 a.SBLink:hover {
     color: rgb(43, 192, 22);
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
 }
