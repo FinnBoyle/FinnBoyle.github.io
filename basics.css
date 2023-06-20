@@ -10,7 +10,8 @@ html, body {
 }
 
 .sidebar {
-    width: 200px;
+    min-width: 100px;
+    width: 15%;
     background-color: rgb(56, 125, 122);
     border-radius: 15px;
     padding: 10px;
