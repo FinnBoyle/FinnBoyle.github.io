@@ -1,8 +1,45 @@
-body {
-    background-color: pink;
+html, body {
+    background-color: rgb(57, 94, 102);
+    height: 100%;
+    margin: 0;
 }
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: rgb(56, 125, 122);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.main-content {
+    flex-grow: 1; /*Allows main content to fill up remaining space across from sidebar*/
+}
+
 .nonlink {
-    color: blue;
-    text-decoration: underline;
+    color: rgb(38, 169, 108);
+    text-decoration: line-through;
+    font-weight: bold;
     cursor: default;
+    display: block;
+    margin-bottom: 20px;
+}
+
+a.SBLink {
+    color: rgb(38, 169, 108);
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 20px;
+}
+
+a.SBLink:hover {
+    color: rgb(43, 192, 22);
+    text-decoration: none;
+    font-weight: bold;
 }
