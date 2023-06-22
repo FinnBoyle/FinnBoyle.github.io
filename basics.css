@@ -25,6 +25,17 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.sidebar .credit {
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+    color: rgb(43, 192, 22);
+
+    font-size: 75%;
+    font-style: italic;
+    font-weight: bold;
+}
+
 
 /*Main body content stuff*/
 .main-content {
@@ -45,7 +56,6 @@ html, body {
     color:rgb(204, 204, 204);
     margin-left: 15px;
 }
-
 
     /*Links section*/
 /*Fake links*/
