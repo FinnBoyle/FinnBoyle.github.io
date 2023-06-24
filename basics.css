@@ -22,7 +22,7 @@ html, body {
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
 
     /*Sidebar inner*/
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 .sidebar .credit {
@@ -34,27 +34,6 @@ html, body {
     font-size: 75%;
     font-style: italic;
     font-weight: bold;
-}
-
-
-/*Main body content stuff*/
-.main-content {
-    flex-grow: 1; /*Allows main content to fill up remaining space across from sidebar*/
-}
-
-.header {
-    text-align: center;
-    font-size: 32px;
-    font-weight: bold;
-    color: rgb(204, 204, 204);
-}
-
-.main-text {
-    text-align: left;
-    font-size: default;
-    font-weight: normal;
-    color:rgb(204, 204, 204);
-    margin-left: 15px;
 }
 
     /*Links section*/
@@ -79,6 +58,49 @@ a.SBLink {
 
 a.SBLink:hover {
     color: rgb(43, 192, 22);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+/*Main body content stuff*/
+.main-content {
+    flex-grow: 1; /*Allows main content to fill up remaining space across from sidebar*/
+}
+
+.header {
+    text-align: center;
+    font-size: 300%;
+    font-weight: bold;
+    color: rgb(204, 204, 204);
+    font-family: Verdana, sans-serif;
+}
+
+.main-text {
+    text-align: left;
+    font-size: default;
+    font-weight: normal;
+    color:rgb(204, 204, 204);
+    margin-left: 15px;
+    font-family: Georgia, serif;
+}
+
+.main-text h1 {
+    text-align: left;
+    text-decoration: underline;
+    font-size: 200%;
+    font-weight: bold;
+    color: rgb(204, 204, 204);
+    font-family: Verdana, sans-serif;
+}
+
+a.contactLink {
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a.contactLink:hover {
+    color: rgb(174, 174, 174);
     text-decoration: none;
     font-weight: bolder;
 }
