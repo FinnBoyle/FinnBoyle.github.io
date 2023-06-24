@@ -1,0 +1,2 @@
+- add in images for the contact page (i.e., an image for github, email and linkedin that users can click)
+- need to fix sidebar issue, still not sure why its changing width outside of fullscreen
