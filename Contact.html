@@ -29,9 +29,19 @@
                     
                     <h1>E-mail:</h1>
                     <ul>
-                        <li><a href="mailto:finnboyle@icloud.com" class="contactLink" target="_blank">Email Me</a></li>
+                        <li><a href="mailto:finnboyle@icloud.com" class="contactLink" target="_blank">Email Direct</a></li>
                         <!--Could make the address click to copy, rather than manual-->
-                        <li><p>Copy address here: finnboyle@icloud.com</p></li>
+                        <li><a onclick="copy()" class="contactLink" target="_blank">Copy Email</p></li>
+                        <script>
+                            function copy() {
+                                navigator.clipboard.writeText("finnboyle@icloud.com").then(function() {
+                                    alert("\"finnboyle@icloud.com\" copied to clipboard");
+                                }).catch(function(err) {
+                                    alert("Couldn\'t copy email")
+                                });
+                                
+                            }
+                        </script>
                     </ul>
                     
                     <h1>GitHub:</h1>
