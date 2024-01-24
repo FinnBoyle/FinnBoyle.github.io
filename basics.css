@@ -8,11 +8,14 @@ html, body {
 /*div container*/
 .container {
     display: flex;
-    height: 100%;
-    width: 100%;
 }
 
 .sidebar {
+    min-width: 15%;
+    position: fixed;
+}
+
+.sidebar-content {
     /*Sidebar itself*/
     min-width: 15%;
     position: fixed;
@@ -66,8 +69,7 @@ a.SBLink:hover {
 /*Main body content stuff*/
 .main-content {
     flex: 1;
-    padding: 25px;
-    margin: 15px 15px 15px 20%;
+    padding: 20px;
 }
 
 .header {
@@ -83,7 +85,8 @@ a.SBLink:hover {
     font-size: default;
     font-weight: normal;
     color:rgb(105, 103, 115);
-    margin-left: 15px;
+    padding: 25px;
+    margin: 15px 15px 15px 20%;
     font-family: Georgia, serif;
 }
 
