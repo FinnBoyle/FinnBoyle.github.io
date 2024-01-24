@@ -2,6 +2,6 @@
 
 - include referees?
 
-- add link to download cv?
+- add invisible sidebar box around current sidebar to stop main content from overflowing into sidebar area
 
 learn more css styling!

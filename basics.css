@@ -9,11 +9,13 @@ html, body {
 .container {
     display: flex;
     height: 100%;
+    width: 100%;
 }
 
 .sidebar {
     /*Sidebar itself*/
     min-width: 15%;
+    position: fixed;
     background-color: rgb(254, 215, 102);
     border-radius: 15px;
     padding: 25px;
@@ -63,7 +65,9 @@ a.SBLink:hover {
 
 /*Main body content stuff*/
 .main-content {
-    flex-grow: 1; /*Allows main content to fill up remaining space across from sidebar*/
+    flex: 1;
+    padding: 25px;
+    margin: 15px 15px 15px 20%;
 }
 
 .header {
@@ -92,14 +96,14 @@ a.SBLink:hover {
     font-family: Verdana, sans-serif;
 }
 
-a.contactLink {
+a.mainLink {
     color: rgb(105, 103, 115);
     text-decoration: none;
     font-weight: bolder;
 }
 
-a.contactLink:hover {
-    color: rgb(0, 159, 183);
+a.mainLink:hover {
+    color: rgb(235, 186, 185);
     text-decoration: none;
     font-weight: bolder;
 }
