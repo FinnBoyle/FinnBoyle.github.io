@@ -7,19 +7,18 @@ html, body {
 
 /*div container*/
 .container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     display: flex;
-}
-
-.sidebar {
-    min-width: 15%;
-    position: fixed;
 }
 
 .sidebar-content {
     /*Sidebar itself*/
-    min-width: 15%;
+    width: 150px;
     position: fixed;
-    background-color: rgb(254, 215, 102);
+    z-index: 1;
+    background: rgb(254, 215, 102);
     border-radius: 15px;
     padding: 25px;
     margin: 15px;
@@ -29,7 +28,7 @@ html, body {
     font-family: Helvetica, sans-serif;
 }
 
-.sidebar .credit {
+.sidebar-content .credit {
     position: relative;
     bottom: auto;
     width: 100%;
@@ -68,8 +67,8 @@ a.SBLink:hover {
 
 /*Main body content stuff*/
 .main-content {
-    flex: 1;
-    padding: 20px;
+    margin-left: 200px;
+    padding: 10px;
 }
 
 .header {
@@ -85,9 +84,8 @@ a.SBLink:hover {
     font-size: default;
     font-weight: normal;
     color:rgb(105, 103, 115);
-    padding: 25px;
-    margin: 15px 15px 15px 20%;
     font-family: Georgia, serif;
+    padding: 25px;
 }
 
 .main-text h1 {

@@ -2,6 +2,8 @@
 
 - include referees?
 
-- add invisible sidebar box around current sidebar to stop main content from overflowing into sidebar area
+- sidebar working!
+
+- need to fix div class "header" sometimes works, but for Home and Contact pages it doesnt?
 
 learn more css styling!
