@@ -1,9 +1,9 @@
-- add in images for the contact page (i.e., an image for github, email and linkedin that users can click)
+- make everything viewable from ONE page, links should dropdown the selected section and close the old one, instead of loading a new page.
 
-- include referees?
+- add projects page (would include personal and university projects!)
 
-- sidebar working!
+- might remove contacts page, and instead have that at the bottom of each page.
 
-- need to fix div class "header" sometimes works, but for Home and Contact pages it doesnt?
+- need to find some nicer fonts and refine most info
 
-learn more css styling!
+- sidebar needs fixing (again, goes off the page when the page is too small...)
