@@ -11,14 +11,29 @@
                 <a href="personalInfo.html" class="SBLink">About Me</a>
                 <a href="universityInfo.html" class="SBLink">My studies at AUT</a>
                 <span class="nonlink">Work Information</span>
-                <a href="contact.html" class="SBLink">Contact</a>
 
                 <div class="credit">
                     <p>Made by Finn Boyle</p>
                 </div>
             </div>
-            <div class="sidebar-content-alt">
+            <div class="sidebar-content-img">
                 <img src="files/FinnBoyle.jpg" alt="Finn B Image" class="sidebar-image">
+            </div>
+            <div class="sidebar-content sidebar-lower">
+                <span class="nonlink plainText">Links:</span>
+                <a href="https://www.linkedin.com/in/finn-boyle-97541b268" class="SBLink SBLinkLower" target="_blank">LinkedIn</a>
+                <a href="mailto:finnboyle@icloud.com" class="SBLink SBLinkLower" target="_blank">Email Direct</a>
+                <a onclick="copy()" class="SBLink SBLinkLower" target="_blank">Copy Email</p>
+                <script>
+                    function copy() {
+                        navigator.clipboard.writeText("finnboyle@icloud.com").then(function() {
+                            alert("\"finnboyle@icloud.com\" copied to clipboard");
+                        }).catch(function(err) {
+                            alert("Couldn\'t copy email")
+                        });        
+                    }
+                </script>
+                <a href="https://github.com/FinnBoyle" class="SBLink SBLinkLower" target="_blank">GitHub</a>
             </div>
             <div class="main-content">
                 <div class="header">
