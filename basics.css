@@ -133,7 +133,7 @@ a.SBLink:hover {
     background-color: rgb(235, 186, 185);
     box-shadow: 5px 5px 5px 5px rgb(105, 103, 115, 0.2);
 
-    animation: headEntryAnim 0.25s ease-out;
+    animation: headEntryAnim 0.15s ease-out;
 }
 
 .main-text {
@@ -148,7 +148,7 @@ a.SBLink:hover {
     background-color: rgb(255, 255, 255);
     box-shadow: 5px 5px 5px 5px rgb(105, 103, 115, 0.2);
 
-    animation: mainEntryAnim 0.25s ease-out;
+    animation: mainEntryAnim 0.15s ease-out;
 }
 
 .main-text h1 {
