@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>Homepage</title>
+        <link rel="icon" href="files/temp.JPG">
+        <link rel="stylesheet" href="basics.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="sidebar-content">
+                <a href="index.html" class="SBLink">Home</a>
+                <a href="personalInfo.html" class="SBLink">About Me</a>
+                <a href="universityInfo.html" class="SBLink">My studies at AUT</a>
+                <a href="workInfo.html" class="SBLink">Work Information</a>
+                <span class="nonlink">Projects</span>
+
+                <div class="credit">
+                    <p>Made by Finn Boyle</p>
+                </div>
+            </div>
+            <div class="sidebar-content-img">
+                <img src="files/FinnBoyle.jpg" alt="Finn B Image" class="sidebar-image">
+            </div>
+            <div class="sidebar-content sidebar-lower">
+                <span class="nonlink plainText">Links:</span>
+                <a href="https://www.linkedin.com/in/finn-boyle-97541b268" class="SBLink SBLinkLower" target="_blank">LinkedIn</a>
+                <a href="mailto:finnboyle@icloud.com" class="SBLink SBLinkLower" target="_blank">Email Direct</a>
+                <a onclick="copy()" class="SBLink SBLinkLower" target="_blank">Copy Email</p>
+                <script>
+                    function copy() {
+                        navigator.clipboard.writeText("finnboyle@icloud.com").then(function() {
+                            alert("\"finnboyle@icloud.com\" copied to clipboard");
+                        }).catch(function(err) {
+                            alert("Couldn\'t copy email")
+                        });        
+                    }
+                </script>
+                <a href="https://github.com/FinnBoyle" class="SBLink SBLinkLower" target="_blank">GitHub</a>
+            </div>
+            <div class="main-content">
+                <div class="Header">
+                    <p>Projects:</p>
+                </div>
+                <div class="main-text">
+                    <h1>University Projects:</h1>
+                    <ul>
+                        <li>
+                            <b>Final Year Industrial Project (2023)</b><br>
+                            This project involved researching if and how developers
+                            can benefit from the use of GPT AI models. I developed
+                            controllers for a model windmill with another student
+                             — using a range of methods, from completely manually
+                            coded, to using ChatGPT to code the controllers by itself.
+                            The codebase was written in TypeScript and C++.
+                            This project was supervised by Roopak Sinha, Deputy Head
+                            of School for Engineering, Computer and Mathematical
+                            Sciences at AUT.<br><br>
+                        </li>
+                        <li>
+                            <b>Python Battleship game versus an AI (2023)</b><br>
+                            This project involved making a game of Battleship in which
+                            players would be able to play against an AI opponent.
+                            While it is a simple AI, it provides some difficulty as an
+                            opponent.<br><br>
+                        </li>
+                        <li>
+                            <b>Android Device Frontend Development (Using Figma) (2022)</b><br>
+                            For this project, I learned to use Figma, and designed
+                            and developed a relatively simple frontend UI for Android
+                            devices, intended for use in a ski resort mapping app.<br><br>
+                        </li>
+                        <li>
+                            <b>Unreal Engine 5 Game (2022)</b><br>
+                            As part of a team of five, I worked to make a short, twolevel first-person platforming game using Unreal Engine 5
+                            blueprints. I was tasked with development of the game's
+                            traps (spike traps, sticky traps and bounce pads).<br><br>
+                        </li>
+                        <li>
+                            <b>Other Projects (2019 - 2023)</b><br>
+                            Various websites and Java programs, usually booking
+                            systems and proofs of understanding. Some involved use
+                            of PHP and SQL also.<br><br>
+                        </li>
+                    </ul>
+
+                    <h1>Personal Projects:</h1>
+                    <ul>
+                        <li>
+                            <b>8x8 LED Arduino Sign with Customisable Text (2023)</b><br>
+                            Using an Arduino Uno, three buttons and an 8x8 LED Matrix, I built an LED sign that can be customised.
+                            Buttons act as a confirm button, a move-left button and a move-right button.
+                            pressing move-left or move-right increments or decrements the currently selected list position.
+                            The list consists of the alphabet, numericals and a space, plus a final confirmation choice.
+                            Use the confirmation button to add the displayed alphanumeric to the display list, once finished, 
+                            navigate to the end of the list and select the tick to display.
+                            In display mode, the system will move through the list of chosen letters, displaying each one, 
+                            one at a time on repeat until the confirmation button is pressed again, where the system resets to the selection mode.<br><br>
+                        </li>
+                        <li>
+                            <b>This website (2023 - Present)</b>
+                            This website is something I have made entirely from scratch. I intend to improve it as I go.<br><br>
+                        </li>
+                        <li>
+                            <b>More projects coming soon!</b>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

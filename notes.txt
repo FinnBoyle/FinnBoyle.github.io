@@ -2,8 +2,6 @@
 
 - add projects page (would include personal and university projects!)
 
-- might remove contacts page, and instead have that at the bottom of each page.
-
 - need to find some nicer fonts and refine most info
 
 - sidebar needs fixing (again, goes off the page when the page is too small...)
